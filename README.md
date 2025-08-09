@@ -49,6 +49,8 @@ It allows users to browse, search, and play songs with an intuitive interface.
 
 ---
 ## 5. Live Demo
+🎵 **[My Music](https://my-music-sss.netlify.app/)** – Responsive music streaming app built with React & React Router.  
 
-**🔗 [View Portfolio](https://sonukumarwebsite.netlify.app/)**  
-**🎵 [View My Music](https://my-music-sss.netlify.app/)**
+🏠 **[My Apartment](https://myapartment.onrender.com/listings)** – Full-stack rental property listing platform built with Node.js, Express, MongoDB, and Bootstrap.  
+
+💼 **[My Portfolio](https://sonukumarwebsite.netlify.app/)** – Personal portfolio website showcasing my skills and projects, built with React.
