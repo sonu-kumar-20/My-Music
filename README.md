@@ -48,3 +48,7 @@ It allows users to browse, search, and play songs with an intuitive interface.
 - Flexible layouts and adaptive design ensure a smooth user experience on all devices.  
 
 ---
+## 5. Live Demo
+
+**🔗 [View Portfolio](https://sonukumarwebsite.netlify.app/)**  
+**🎵 [View My Music](https://my-music-sss.netlify.app/)**
