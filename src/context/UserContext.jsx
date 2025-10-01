@@ -1,10 +1,6 @@
 import React,{createContext,useRef,useState,useEffect} from "react";
 import { songsData } from "../songs";
-
-
 export const datacontext = createContext(); 
-
-
 
 
 function UserContext({children}){

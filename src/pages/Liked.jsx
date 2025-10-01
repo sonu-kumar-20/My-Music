@@ -14,7 +14,7 @@ function Liked() {
       <h1 className="text-2xl font-bold my-6">Favorite Songs</h1>
 
       {/* Centered container */}
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center pb-20">
         <div className="w-full max-w-[700px] flex flex-col items-center gap-5">
           {songs.map((song) => (
             <Card

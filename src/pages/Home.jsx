@@ -31,16 +31,20 @@ function Home() {
     const updateProgress = () => {
       const duration = audioRef.current.duration || 0;
       const currentTime = audioRef.current.currentTime || 0;
+      // yha pe percentage nikale h ki kitna percent ko color 
+      // krna h range me jaise (400/500)*100 = 80% same concept below
       const progressPercentage = (currentTime / duration) * 100 || 0;
 
       setRange(progressPercentage);
-
+     // yha pe zero se jada h color kro
       if (progress.current) {
         progress.current.style.width = `${progressPercentage}%`;
       }
+
     };
 
     const audio = audioRef.current;
+    // when time is update we call updateProgress function timeupdate event listener h
     audio.addEventListener("timeupdate", updateProgress);
     audio.addEventListener("ended", nextSong);
 
@@ -50,16 +54,19 @@ function Home() {
     };
   }, [audioRef, nextSong]);
 
+//  e = event it gives details about music length in duration 
   function handleRange(e) {
+    // yha newRange ka value 0 se 100 hoga keeep it in mind
     const newRange = e.target.value;
     setRange(newRange);
     const duration = audioRef.current.duration;
+    // it is just the percentage of range on music duration 
     audioRef.current.currentTime = (duration * newRange) / 100;
   }
 
   return (
     <div className="w-full h-screen bg-black flex relative overflow-hidden">
-      {/* Toggle Arrow - only on small screens */}
+      {/* toggle Arrow - only on small screens */}
       <MdOutlineKeyboardArrowDown
   className={`absolute text-white top-[20px] left-[10%] text-[30px] md:hidden z-50 cursor-pointer transition-transform duration-300 ${
     arrow ? "rotate-180" : ""

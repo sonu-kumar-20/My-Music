@@ -49,8 +49,8 @@ function Search() {
       </form>
 
       {/* Cards Section */}
-      <div className="w-full flex justify-center">
-        <div className="w-full max-w-[700px] flex flex-col items-center gap-5 mt-6">
+      <div className="w-full flex justify-center ">
+        <div className="w-full max-w-[700px] flex flex-col items-center gap-5 mt-6  pb-16 ">
           {songsToDisplay.length === 0 && input.trim() !== "" ? (
             <p className="text-center text-gray-400 text-sm">
               No matching songs found.
