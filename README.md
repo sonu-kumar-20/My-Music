@@ -44,7 +44,7 @@ It allows users to browse, search, and play songs with an intuitive interface.
 ---
 
 ## 4. Responsiveness  
-- Optimized for **both mobile and large screens**.  
+- Optimized for **both mobile, Laptop  and large screens**.  
 - Flexible layouts and adaptive design ensure a smooth user experience on all devices.  
 
 ---
